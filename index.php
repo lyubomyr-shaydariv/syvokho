@@ -37,9 +37,9 @@ if (($days != $realDays) && (!$debug)) {
     exit;
 }
 
-$title = "Скільки днів не били Сивоху?";
+$title = "Скільки днів не били Шуфрича?";
 $text = pluralForm($days, ["день", "дні", "днів"]);
-$answer = "Сивоху не били";
+$answer = "Шуфрича не били";
 $description = "$answer $days $text";
 
 $path = "images/$days.png";
@@ -136,7 +136,7 @@ if (!file_exists($path)) {
   <body>
     <div class="container">
       <h1>
-        Сивоху не&nbsp;били <span id="days"><?php echo $days; ?></span> 
+        Шуфрича не&nbsp;били <span id="days"><?php echo $days; ?></span> 
         <?php echo $text; ?></h1>
     </div>
     <div class="footer">
